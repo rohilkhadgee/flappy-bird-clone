@@ -1,0 +1,44 @@
+*{
+    margin:0;
+}
+.game-container{
+    width: 500px;
+    height:730px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.sky{
+    background: lightblue;
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+
+.ground{
+    background: brown;
+    width:500px;
+    height:150px;
+    position: absolute;
+    top:580px;
+    z-index: 1;
+}
+.bird{
+    background: yellow;
+    height: 45px;
+    width: 60px;
+    position: absolute;
+}
+
+.obstacle{
+    background-color: green;
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+.topObstacle{
+    background-color: green;
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
